@@ -1,0 +1,40 @@
+.reset-email-input{
+    width: 40%;
+}
+
+.reset-button {
+    color: #ffffff !important;
+    width: 10%;
+    background-color: #355DAB !important;
+    border-radius: 0.69rem !important;
+}
+
+.reset-button:hover {
+    color: #ffffff !important;
+    background-color: #5d7dbb !important;
+}
+
+.success-reset-password{
+    color: #3B9710;
+    font-size: 56px;
+}
+
+.detail-modal-reset-password{
+    color: #868484;
+    font-size: 16px;
+}
+
+.size-modal-resetpassword{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.error-reset-password{
+    font-size: 56px;
+    color:rgb(241, 62, 62);
+}
+
+.border-resetpassword{
+    border-radius: 1.5rem !important;
+}

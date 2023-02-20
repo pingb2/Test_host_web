@@ -1,0 +1,86 @@
+@media (min-width:0px){
+    .section-partner{
+        height: 790px;
+        background-color: blanchedalmond;
+    }
+
+    .text-title-partner{
+        font-size: 24px;
+    }
+
+    .icon-vtube-partner{
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        transition: 250ms;
+        filter: grayscale(100%);
+    }
+}
+
+@media (min-width:500px){
+    .section-partner{
+        height: 780px;
+        background-color: blanchedalmond;
+    }
+
+    .icon-vtube-partner{
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+        transition: 250ms;
+        filter: grayscale(100%);
+    }
+}
+
+@media (min-width:700px){
+    .section-partner{
+        height: 820px;
+        background-color: blanchedalmond;
+    }
+
+    .text-title-partner{
+        font-size: 28px;
+    }
+
+    .icon-vtube-partner{
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: 250ms;
+        filter: grayscale(100%);
+    }
+}
+
+
+@media (min-width:992px){
+    .section-partner{
+        height: 550px;
+        background-color: blanchedalmond;
+    }
+
+    .text-title-partner{
+        font-size: 36px;
+    }
+
+    .icon-vtube-partner{
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+        transition: 250ms;
+        filter: grayscale(100%);
+    }
+}
+
+
+.icon-vtube-partner.active{
+    filter: grayscale(0%);
+}
+
+.icon-vtube-partner:hover{
+    filter: grayscale(0%);
+    transform: translateY(-10px)
+}
+
+.slot-vtube-partner{
+    padding: 10px 0 10px 0;
+}

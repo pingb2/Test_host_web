@@ -1,0 +1,37 @@
+@media (min-width: 0px) {
+    .section-video-intro{
+        height: 340px;
+    }
+}
+@media (min-width: 570px) {
+    .section-video-intro{
+        height: 420px;
+    }
+}
+
+@media (min-width: 720px) {
+    .section-video-intro{
+        height: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-video-intro{
+        height: 100vh;
+    }
+}
+
+.button-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-radius: 8px !important;
+    border-color: #355DAB !important;
+    background-color: #355DAB !important;
+    color: #ffffff;
+    width: 110px;
+}
+
+.button-link:hover{
+    border-color: #496db3 !important;
+    background-color: #496db3 !important;
+}

@@ -1,0 +1,151 @@
+.column-text-navbar {
+    color: #355DAB;
+}
+
+.navbar-button {
+    width: 110px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #355DAB;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #fbc531;
+}
+
+.navbar .navbar-brand .text-navbar-icon {
+    margin-bottom: -13px;
+}
+
+.navbar .navbar-brand .column-text-navbar {
+    display: flex;
+}
+
+.login-button {
+    color: #ffffff !important;
+    background-color: #355DAB !important;
+    border-radius: 0.69rem !important;
+}
+
+.login-button:hover {
+    color: #ffffff !important;
+    background-color: #5d7dbb !important;
+}
+
+.input-login{
+    border: 1px solid #ced4da !important;
+    border-radius: 0.69rem 0.69rem 0.69rem 0.69rem !important;
+}
+
+.showhidepassword {
+    border: 0px !important;
+    font-size: 12px !important;
+    color: #868484 !important;
+    background-color: #ffffff !important;
+    border-radius: 0.69rem !important;
+    cursor: pointer !important;
+    height: 100% !important;
+}
+
+.input-password {
+    border: 0px !important;
+    border-radius: 0.69rem 0px 0px 0.69rem !important;
+}
+
+.password-input-group {
+    border: 1px solid #ced4da !important;
+    border-radius: 0.69rem !important;
+}
+
+.icon-navbar {
+    width: 53.3px;
+    height: 43px;
+}
+
+.icon-login-register {
+    width: 69.4px;
+    height: 56px;
+}
+
+.cursor-cross {
+    cursor: pointer;
+}
+
+.announce-login {
+    font-size: 12px;
+    width: 70%;
+    color: #8b8b8b
+}
+
+.announce-login a {
+    color: black;
+}
+
+.announce-login a:link {
+    text-decoration: none;
+}
+
+.announce-login a:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+body {
+    font-family: 'Jost', sans-serif !important;
+
+}
+
+.login-forgotten_password {
+    color: #8b8b8b
+}
+
+.login-forgotten_password a {
+    color: black;
+    font-size: 14px;
+}
+
+.login-forgotten_password a:link {
+    text-decoration: none;
+}
+
+.login-forgotten_password a:hover {
+    text-decoration: underline;
+}
+
+.button-login button {
+    width: 70%;
+}
+
+.password-incorrect {
+    width: 70%;
+    color: #dc3545;
+    font-size: 14px;
+}
+
+.inline-button {
+    display: flex;
+}
+
+.modal-content{
+    border-radius: 1.5rem !important;
+}
+
+@media (max-width: 1199px) {
+    .navbar .navbar-nav .nav-link {
+        margin-left: 25px;
+    }
+
+    .navbar .navbar-nav .nav-item:hover {
+        background-color: #b8b0b057;
+        transition: 0.8s;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(241, 241, 241, 0.459);
+        border-radius: 0 0 8px 8px;
+    }
+}

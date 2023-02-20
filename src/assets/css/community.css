@@ -1,0 +1,167 @@
+.section-community {
+    background: white;
+}
+
+.detail-community{
+    color:#355DAB;
+}
+
+.content-community {
+    height: 50vh;
+    color: #ffffff;
+}
+
+.content-community ul{
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+
+.contact-community{
+    color:#ffffff;
+}
+
+.content-community ul .icon-community-twitter{
+    width: 22%;
+    background-color: #60D3FF;
+    cursor: pointer;
+}
+
+.content-community ul .icon-community-twitter:hover{
+    background-color: #7fdbff;
+    transition: 0.5s;
+}
+
+.content-community ul .icon-community-discord{
+    width: 22%;
+    background-color: #7D8FF2;
+    cursor: pointer;
+}
+
+.content-community ul .icon-community-discord:hover{
+    background-color: #97a5f4;
+}
+
+.content-community ul .icon-community-facebook{
+    width: 22%;
+    background-color: #559CE2;
+    cursor: pointer;
+}
+
+.content-community ul .icon-community-facebook:hover{
+    background-color: #76afe7;
+}
+
+.content-community ul .detail-community-twitter{
+    width: 100%;
+    background-color: #0FB0EE;
+    cursor: pointer;
+}
+
+.content-community ul .detail-community-twitter a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content-community ul .detail-community-twitter:hover{
+    background-color: #3ebff1;
+}
+
+.content-community ul .detail-community-discord{
+    width: 100%;
+    background-color: #5C6BC0;
+    cursor: pointer;
+}
+
+.content-community ul .detail-community-discord a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content-community ul .detail-community-discord:hover{
+    background-color: #7c88cc;
+}
+
+.content-community ul .detail-community-facebook{
+    width: 100%;
+    background-color: #1976D2;
+    cursor: pointer;
+}
+
+.content-community ul .detail-community-facebook a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content-community ul .detail-community-facebook:hover{
+    background-color: #4691db;
+}
+
+.icon-brands{
+    color: #ffffff;
+}
+
+
+@media (min-width:0px){
+    .icon-brands{
+        font-size: 10px;
+    }
+
+    .contact-community{
+        font-size: 12px;
+    }
+
+    .our-community{
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width:560px){
+    .icon-brands{
+        font-size: 12px;
+    }
+
+    .contact-community{
+        font-size: 12px;
+    }
+
+    .our-community{
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width:720px){
+    .icon-brands{
+        font-size: 19px;
+    }
+
+    .contact-community{
+        font-size: 14px;
+    }
+
+    .our-community{
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width:990px){
+    .our-community{
+        margin-top: 30px;
+    }
+    .contact-community{
+        width: 80%;
+    }
+}
+
+@media (min-width:1200px){
+    .icon-brands{
+        font-size: 19px;
+    }
+
+    .contact-community{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,95 @@
+.section-partner2 {
+  background-color: brown;
+}
+
+.partner_title{
+  font-size: 28px;
+  color: #ffffff;
+}
+
+@media (min-width:0px) {
+
+  .vueperslides__bullet .default {
+    width: 3px;
+    height: 3px;
+  }
+
+  .vueperslides__bullet--active .default {
+    border-width: 3px;
+  }
+
+  .vueperslides__bullet {
+    border-color: #E73C7E;
+    box-shadow: none;
+    width: 3px;
+    height: 3px;
+  }
+}
+
+@media (min-width:560px) {
+
+  .vueperslides__bullet .default {
+    width: 6px;
+    height: 6px;
+  }
+
+  .vueperslides__bullet--active .default {
+    border-width: 3px;
+  }
+
+  .vueperslides__bullet {
+    border-color: #E73C7E;
+    box-shadow: none;
+    width: 6px;
+    height: 6px;
+  }
+}
+
+@media (min-width:700px) {
+
+  .vueperslides__bullet .default {
+    width: 8px;
+    height: 8px;
+  }
+
+  .vueperslides__bullet--active .default {
+    border-width: 4px;
+  }
+
+  .vueperslides__bullet {
+    border-color: #E73C7E;
+    box-shadow: none;
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media (min-width:1200px) {
+  .vueperslides__bullet {
+    border-color: #E73C7E;
+    box-shadow: none;
+    width: 12px;
+    height: 12px;
+  }
+
+  .vueperslides__bullet .default {
+    width: 12px;
+    height: 12px;
+  }
+
+  .vueperslides__bullet--active .default {
+    border-width: 6px;
+  }
+}
+
+.vueperslide {
+  transition: .3s ease-in-out;
+  opacity: 0.7;
+  transform: scale(0.8);
+}
+
+.vueperslide--active {
+  opacity: 1 !important;
+  transform: scale(1);
+  filter: blur(0);
+}

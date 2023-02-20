@@ -1,0 +1,35 @@
+.icon-footer{
+    width: 53.3px;
+    height: 43px;
+}
+
+.text-footer b{
+    color: #ffffff;
+    
+}
+
+.text-footer-icon {
+    margin-bottom: -8px;
+}
+
+.detail-footer{
+    color:#ffffff;
+    font-size: 12px;
+}
+
+.section-footer{
+    height: 80px;
+}
+
+.title-footer{
+    font-size: 16px;
+}
+
+.detail-footer{
+    font-size:14px;
+}
+
+.icon-footer-contact{
+    cursor: pointer;
+    font-size: 16px;
+}

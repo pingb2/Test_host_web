@@ -1,0 +1,69 @@
+
+.section-package{
+    background: linear-gradient(135deg, #FF67AC 0%, #7BD2F7 100%);
+}
+
+.package-title-head{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.package-title-detail{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.purchase-pack{
+    background:#355DAB;
+    border-radius: 0 0 0.375rem 0.375rem;
+    transition: 250ms;
+}
+
+.purchase-pack:hover{
+    background: linear-gradient(270.72deg, #4378FF 5.58%, #FF67AC 99.64%);
+}
+
+.purchase-pack b{
+    color: #ffffff;
+}
+
+.card a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card{
+    color:#355DAB;
+}
+
+.animation-button-trial{
+    width: 200px;
+}
+
+.animation-button-trial:hover{
+    transition: 250ms;
+    transform: translateY(-3px);
+    width: 300px;
+}
+
+.disable-section{
+    color:gray;
+}
+
+.disable-section-button{
+    background: rgb(100, 100, 100) !important;
+    cursor: default !important;
+}
+
+.disable-section-button:hover{
+    background: rgb(100, 100, 100) !important;
+    cursor: default !important;
+}
+
+.disable-list{
+    position: static !important;
+}
+
+.list-color-package{
+    color: #355DAB !important;
+}

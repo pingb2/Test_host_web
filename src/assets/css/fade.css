@@ -1,0 +1,21 @@
+.img-partner {
+    max-height: 400px;
+}
+
+@media (min-width:0) {
+    .text-title-partner {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:700) {
+    .text-title-partner {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:992) {
+    .text-title-partner {
+        font-size: 36px;
+    }
+}

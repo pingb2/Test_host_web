@@ -1,0 +1,73 @@
+.row-title-profile {
+    cursor: pointer;
+    width: 90%;
+    padding: 8px 15px 8px 15px;
+    color:#595959;
+}
+
+.row-title-profile:active {
+    background: #F7F9FF;
+    border-radius: 5px;
+}
+
+.active,
+.row-title-profile:hover {
+    background: #F7F9FF;
+    border-radius: 5px;
+    color:#355DAB;
+}
+
+.row-title-profile-disable {
+    width: 90%;
+    padding: 8px 15px 8px 15px;
+    cursor: default;
+    color: #8a8a8a;
+}
+
+.input-value-profile {
+    height: 40px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 8px !important;
+    caret-color: dodgerblue;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.input-value-profile:hover {
+    border-color: dodgerblue !important;
+}
+
+.input-value-profile:focus {
+    outline: none !important;
+    border-color: dodgerblue !important;
+    box-shadow: rgb(30 144 255 / 70%) 0px 0px 0px 0.125rem;
+}
+
+.button-edit-profile {
+    width: 90px;
+    color:#ffffff !important;
+}
+
+.border-card {
+    border-radius: 0.69rem !important;
+}
+
+.border-input {
+    border-radius: 8px !important;
+    background: #FBFBFB;
+    border: 1px solid #EBEBEB;
+    height: 40px;
+    width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #7E7C7C;
+}
+
+.title-header-profile{
+    font-size: 24px;
+}
+
+.label-title-name{
+    color:#7E7C7C;
+}
